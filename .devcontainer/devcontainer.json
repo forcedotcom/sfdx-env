@@ -1,6 +1,6 @@
 {
     "name": "Salesforce Development Container",
-    "dockerFile": "Dockerfile",
+    "image": "salesforce/salesforcedx:latest-slim",
     "extensions": [
       "salesforce.salesforcedx-vscode",
       "redhat.vscode-xml",
