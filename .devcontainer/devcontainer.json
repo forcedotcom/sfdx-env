@@ -1,15 +1,19 @@
 {
-    "name": "Salesforce Development Container",
-    "image": "salesforce/salesforcedx:latest-slim",
-    "extensions": [
-      "salesforce.salesforcedx-vscode",
-      "redhat.vscode-xml",
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "salesforce.codey-midnight"
-    ],
-    "settings": {
-      "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
-      "workbench.colorTheme": "Codey Midnight"
+  "name": "Salesforce Development Container",
+  "image": "salesforce/salesforcedx:latest-slim",
+  "extensions": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "salesforce.codey-midnight",
+    "/root/workspace/sfdx-env/.devcontainer/sfdx-env.vsix"
+  ],
+  "settings": {
+    "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "workbench.colorTheme": "Codey Midnight",
+    "files.exclude": {
+      "**/.vsix": true
     }
   }
+}
