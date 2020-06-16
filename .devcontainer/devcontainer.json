@@ -13,7 +13,7 @@
     "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
     "workbench.colorTheme": "Codey Midnight",
     "files.exclude": {
-      "**/.vsix": true
+      "**/**.vsix": true
     }
   }
 }
